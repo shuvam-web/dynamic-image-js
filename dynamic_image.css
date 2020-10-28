@@ -51,10 +51,12 @@
     width:50%;
     height:100vh;
     background: rgba(86,86,86,0.3);
-     backdrop-filter: blur(10px);  
+    backdrop-filter: blur(10px);  
+    backdrop-filter:grayscale(0.5);
     position:absolute;
     left:0;
     top:0;
+    /* opacity:0.4; */
 }
 .info{
     width:550px;
